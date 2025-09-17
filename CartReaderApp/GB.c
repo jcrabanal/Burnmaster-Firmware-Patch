@@ -221,6 +221,9 @@ void getCartInfo_GB()
     case 0x07:
       romBanks = 256;
       break;
+    case 0x08:
+      romBanks = 512;
+      break;
     default:
       romBanks = 2;
   }
